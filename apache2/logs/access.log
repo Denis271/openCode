@@ -1,3 +1,13 @@
-::1 - - [09/Nov/2023:12:41:35 +0400] "GET / HTTP/1.1" 200 832
-::1 - - [09/Nov/2023:12:41:37 +0400] "GET /drivers/index HTTP/1.1" 200 3139
-::1 - - [09/Nov/2023:12:41:37 +0400] "GET /drivers/style.css HTTP/1.1" 304 -
+::1 - - [09/Nov/2023:12:57:05 +0400] "GET / HTTP/1.1" 200 832
+::1 - - [09/Nov/2023:12:57:06 +0400] "GET /drivers/index HTTP/1.1" 200 3139
+::1 - - [09/Nov/2023:12:57:07 +0400] "GET /index HTTP/1.1" 200 832
+::1 - - [09/Nov/2023:12:57:08 +0400] "GET /cars/index HTTP/1.1" 200 3244
+::1 - - [09/Nov/2023:12:57:09 +0400] "GET /cars/addCar/index HTTP/1.1" 200 2801
+::1 - - [09/Nov/2023:12:57:09 +0400] "GET /cars/addCar/script.js HTTP/1.1" 304 -
+::1 - - [09/Nov/2023:12:57:16 +0400] "GET /cars/addCar/data.php?stateNumber=%D0%A1050%D0%90%D0%90565&year=2010&chassisNumber=SSSSSSSSSSSSSSSSD&bodyNumber=SSSSSSSSSSSSSSSSS&category=A HTTP/1.1" 200 1
+::1 - - [09/Nov/2023:12:57:16 +0400] "GET /cars/index HTTP/1.1" 200 3740
+::1 - - [09/Nov/2023:12:57:18 +0400] "GET /cars/editCars/index.php?idCar=5 HTTP/1.1" 200 3271
+::1 - - [09/Nov/2023:12:57:18 +0400] "GET /cars/editCars/script.js HTTP/1.1" 304 -
+::1 - - [09/Nov/2023:12:57:18 +0400] "GET /cars/editCars/data.php?idCar=5&idDriver=0&deleteCarDB=1 HTTP/1.1" 200 1
+::1 - - [09/Nov/2023:12:57:18 +0400] "GET /cars/index HTTP/1.1" 200 3244
+::1 - - [09/Nov/2023:12:58:16 +0400] "-" 408 -
